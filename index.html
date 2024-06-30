@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>My Portofolio</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Rayhans Najib Al-Faruq</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#project" class="nav__link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#info" class="nav__link">My Info</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link">Contact Me</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/home-perfil.jpg" alt="image" class="home__img" />
+
+          <div class="home__data">
+            <h1 class="home__name">
+              Rayhans <br />
+              Najib <br />
+              Al-Faruq
+            </h1>
+            <h3 class="home__profession">
+              Full Stack Javascript Web Developer <br />
+              Backend Engineer
+            </h3>
+          </div>
+
+          <a href="#project" class="home__scroll">
+            <div class="home__scroll-box">
+              <i class="ri-arrow-down-line"></i>
+            </div>
+
+            <span class="home__scroll-text">Recent Projects</span>
+          </a>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="project section" id="project">
+        <h2 class="section__title">Recent Projects</h2>
+
+        <div class="project__container container grid">
+          <article class="project__card">
+            <div class="project__link">
+              <h2 class="project__title">Insight Coffee</h2>
+              <p class="project__description">
+                Insight Coffee was an e-commerce platform that aimed to help
+                customers view products, order, and enjoy the coffee of their
+                own choice.
+              </p>
+              <div class="project__code">
+                <a
+                  href="https://github.com/rayhans358/insight_coffee"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project__link-code"
+                >
+                  Client Side
+                </a>
+                <a
+                  href="https://github.com/rayhans358/casestudy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project__link-code"
+                >
+                  Server Side
+                </a>
+              </div>
+              <img
+                src="assets/img/work-1.jpg"
+                alt="image"
+                class="project__img"
+              />
+            </div>
+          </article>
+
+          <article class="project__card">
+            <div class="project__link">
+              <h2 class="project__title">Movies Studio</h2>
+              <p class="project__description">
+                Movies Studio was a web application that allowed users to view a
+                list of trending films and TV series, both today and this week.
+              </p>
+              <div class="project__code">
+                <a
+                  href="https://github.com/rayhans358/movie-web"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project__link-code"
+                >
+                  Source Code
+                </a>
+                <a
+                  href="https://movies-studio-application.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project__link-code"
+                >
+                  Link Demo
+                </a>
+              </div>
+              <img
+                src="assets/img/work-2.jpg"
+                alt="image"
+                class="project__img"
+              />
+            </div>
+          </article>
+
+          <article class="project__card">
+            <div class="project__link">
+              <h2 class="project__title">Instay</h2>
+              <p class="project__description">
+                InStay was an innovative platform that connected people looking
+                to rent out their property with people looking for temporary
+                accommodation.
+              </p>
+              <div class="project__code">
+                <a
+                  href="https://github.com/rayhans358/instay"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project__link-code"
+                >
+                  Source Code
+                </a>
+              </div>
+              <img
+                src="assets/img/work-3.jpg"
+                alt="image"
+                class="project__img"
+              />
+            </div>
+          </article>
+
+          <article class="project__card">
+            <div class="project__link">
+              <h2 class="project__title">Weathero</h2>
+              <p class="project__description">
+                Weathero was a weather app platform that functioned to see the
+                weather forecast for today and the next 5 days.
+              </p>
+              <div class="project__code">
+                <a
+                  href="https://github.com/rayhans358/weather-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project__link-code"
+                >
+                  Source Code
+                </a>
+                <a
+                  href="https://weathero-application.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project__link-code"
+                >
+                  Link Demo
+                </a>
+              </div>
+              <img
+                src="assets/img/work-4.jpg"
+                alt="image"
+                class="project__img"
+              />
+            </div>
+          </article>
+
+          <article class="project__card">
+            <div class="project__link">
+              <h2 class="project__title">Pokemon</h2>
+              <p class="project__description">
+                Pokémon Project was an application that allowed users to search,
+                compare, and view Pokémon details (including descriptions,
+                evolutions, capture locations, and Pokémon abilities and moves).
+              </p>
+              <div class="project__code">
+                <a
+                  href="https://github.com/rayhans358/pokemon-react"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project__link-code"
+                >
+                  Source Code
+                </a>
+                <a
+                  href="https://pokemon-database-app.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project__link-code"
+                >
+                  Link Demo
+                </a>
+              </div>
+              <img
+                src="assets/img/work-5.jpg"
+                alt="image"
+                class="project__img"
+              />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== INFO ====================-->
+      <section class="info section" id="info">
+        <h2 class="section__title">MY INFO</h2>
+
+        <div class="info__container container grid">
+          <!-- ABOUT -->
+          <div class="about grid">
+            <div class="about__content">
+              <h3 class="info__title">About Me</h3>
+              <p class="about__description">
+                Bachelor of Electrical Engineering.
+                <b
+                  >Have a high interest in the field of Software Engineering
+                  (Frontend engineer, Backend Engineer or Fullstack Engineer) or
+                  the Electrical field</b
+                >. Has attended a
+                <b
+                  >bootcamp from Eduwork by taking the programmer full-stack
+                  MERN (MongoDB, Express.js, React.js and Node.js) class</b
+                >
+                and can build frontend and backend well. At Eduwork, I once
+                created an e-commerce product specifically for coffee for coffee
+                shops. Now open to pursue a career in the Software Engineer or
+                Electrical field.
+              </p>
+
+              <a
+                href="assets/pdf/ATS CV Rayhans Najib Al-Faruq.pdf"
+                download=""
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button about__button"
+              >
+                Download CV
+              </a>
+            </div>
+
+            <img
+              src="assets/img/info-perfil.png"
+              alt="image"
+              class="about__img"
+            />
+          </div>
+
+          <!-- EXPERIENCE -->
+          <div class="experience">
+            <h3 class="info__title">Work Experiences</h3>
+
+            <div class="experience__content grid">
+              <div class="experience__data grid">
+                <h2 class="experience__company">
+                  PT. PLN (Persero) ULP Mempawah
+                </h2>
+
+                <div>
+                  <h3 class="experience__profession">College Program Intern</h3>
+                  <p class="experience__date">Jul 2019 - Aug 2019</p>
+                  <p class="experience__description">
+                    Help replace broken Medium Voltage Network poles. Replace
+                    overloaded transformers. Help clean tree branches that have
+                    hit the Medium Voltage Network cables. Perform Thermocam
+                    (Temperature checks on Insulators, Cables, Fuse Cut Out,
+                    Lighting Arrester, Substations, Transformers, Ground and
+                    components on the PHB panel) at PT. PLN (Persero) ULP Rayon
+                    Mempawah.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__data grid">
+                <h2 class="experience__company">
+                  Badan Keuangan Daerah Kota Pontianak
+                </h2>
+
+                <div>
+                  <h3 class="experience__profession">Surveyor</h3>
+                  <p class="experience__date">Sep 2018 - Dec 2018</p>
+                  <p class="experience__description">
+                    Carry out data collection on rural and urban land and
+                    building tax objects in Bansir Darat Village, Southeast
+                    Pontianak District. To find out if there are any additions
+                    to the house. Later the data collection results will be
+                    recorded using the existing format. Prepare report documents
+                    related to data collection activities for rural and urban
+                    land and building tax objects according to a predetermined
+                    format. So that it can later be recorded again and data back
+                    at the office. Input the data that has been recorded using
+                    the ArcGIS application to update the house building.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__data grid">
+                <h2 class="experience__company">PT. Kaibon Rasirekayasa</h2>
+
+                <div>
+                  <h3 class="experience__profession">Verifier</h3>
+                  <p class="experience__date">Aug 2017 - Dec 2017</p>
+                  <p class="experience__description">
+                    Carry out data entry and verification of refill data on 3 Kg
+                    LPG consumers. Process and analyze samples to see whether
+                    the data in the field matches the data recorded by
+                    consumers. Prepare documents which will then be sent and
+                    reported to the Directorate General of Oil and Gas, Ministry
+                    of Energy and Mineral Resources.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SKILLS -->
+          <div class="skills">
+            <h3 class="info__title">Skills and Proficiency</h3>
+
+            <div class="skills__content grid">
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-html.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">HTML</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-css.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">CSS</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-javascript.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">JavaScript</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-react.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">React</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-github.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">GitHub</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-tailwind-css.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Tailwind CSS</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-sass.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Sass</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-express.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Express</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-mongodb.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">MongoDB</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-nodejs.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Node.js</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-postman.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Postman</span>
+              </div>
+
+              <div class="skills__box">
+                <img
+                  src="assets/img/info-axios.svg"
+                  alt="image"
+                  class="skills__img"
+                />
+                <span class="skills__name">Axios</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">CONTACT ME</h2>
+
+        <div class="contact__container container grid">
+          <form action="" class="contact__form grid" id="contact-form">
+            <div class="contact__group grid">
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Name"
+                required
+                class="contact__input"
+              />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Email"
+                required
+                class="contact__input"
+              />
+            </div>
+
+            <textarea
+              name="user_message"
+              placeholder="Message"
+              required
+              class="contact__input contact__area"
+            ></textarea>
+
+            <button type="submit" class="button contact__button">
+              Send Message
+            </button>
+
+            <p class="contact__message" id="contact-message"></p>
+          </form>
+
+          <div class="contact__social grid">
+            <a
+              href="https://www.linkedin.com/in/rayhansnajib/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact__social-link"
+            >
+              <i class="ri-linkedin-box-line"></i>
+              <span>Rayhans Najib Al-Faruq</span>
+            </a>
+
+            <a style="cursor: pointer" class="contact__social-link">
+              <i class="ri-whatsapp-line"></i>
+              <span>+62896 6762 0034</span>
+            </a>
+
+            <a
+              href="https://github.com/rayhans358"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact__social-link"
+            >
+              <i class="ri-github-fill"></i>
+              <span>rayhans358</span>
+            </a>
+
+            <a style="cursor: pointer" class="contact__social-link">
+              <i class="ri-mail-line"></i>
+              <span>rayhans358@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+
+          <li>
+            <a href="#project" class="footer__link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#info" class="footer__link">Info</a>
+          </li>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; All Rights Reserved By Rayhans Najib Al-Faruq
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
