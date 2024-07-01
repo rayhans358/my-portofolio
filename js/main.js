@@ -76,10 +76,40 @@ contactForm.addEventListener("submit", sendEmail);
 const scrollUp = () => {
   const scrollUp = document.getElementById("scroll-up");
   this.scrollY >= 350
-    ? scrollUp.classList.add("show-scroll")
-    : scrollUp.classList.remove("show-scroll");
+    ? scrollUp.classList.add("show-scroll-up")
+    : scrollUp.classList.remove("show-scroll-up");
 };
 window.addEventListener("scroll", scrollUp);
+
+/*=============== HIDE SCROLL UP ON HOME ===============*/
+const hideScrollUpOnHome = () => {
+  const scrollUp = document.getElementById("scroll-up");
+  const scrollY = window.scrollY;
+
+  if (scrollY === 0) {
+    scrollUp.classList.remove("show-scroll-up");
+  }
+};
+window.addEventListener("scroll", hideScrollUpOnHome);
+
+/*=============== SHOW SCROLL DOWN ===============*/
+const scrollDown = () => {
+  const scrollDown = document.getElementById("scroll-down");
+  const contactSection = document.getElementById("contact");
+  const contactTop = contactSection.offsetTop;
+  const contactHeight = contactSection.offsetHeight;
+  const scrollY = window.scrollY;
+
+  if (
+    scrollY + window.innerHeight >= contactTop &&
+    scrollY <= contactTop + contactHeight
+  ) {
+    scrollDown.classList.remove("show-scroll-down");
+  } else {
+    scrollDown.classList.add("show-scroll-down");
+  }
+};
+window.addEventListener("scroll", scrollDown);
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll("section[id]");
