@@ -138,14 +138,18 @@ window.addEventListener("scroll", scrollActive);
 const sr = ScrollReveal({
   origin: "top",
   distance: "60px",
-  duration: 2500,
+  duration: 1500,
   delay: 400,
-  reset: true, // Animations repeat
+  reset: true,
 });
 
-sr.reveal(`.home__data, .experience, .skills, .conact__container`);
+sr.reveal(`.home__data, .all__skills, .contact__container`);
 sr.reveal(`.home__img`, { delay: 600 });
 sr.reveal(`.home__scroll`, { delay: 800 });
-sr.reveal(`.project__card`, { interval: 100 });
-sr.reveal(`.about__content`, { origin: right });
-sr.reveal(`.about__img`, { origin: left });
+sr.reveal(`.content__project`, { interval: 100 });
+sr.reveal(`.about__content, .experience__content`, {
+  origin: "right",
+});
+sr.reveal(`.about__img, .experience__company`, {
+  origin: "left",
+});

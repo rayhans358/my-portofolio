@@ -275,9 +275,13 @@ img {
 
 .home__profession {
   position: relative;
-  font-size: var(--h1-font-size);
+  font-size: var(--h3-font-size);
   color: var(--text-color);
 }
+
+/* .home__fill {
+  border: 1px solid yellow;
+} */
 
 .home__profession::after {
   content: "";
@@ -461,7 +465,7 @@ img {
   background-color: var(--container-color);
 }
 
-.project__card {
+.content__project {
   background-color: var(--first-color);
 }
 
@@ -808,7 +812,7 @@ img {
 
   .home__profession::after {
     bottom: -1rem;
-    width: 35%;
+    width: 100%;
   }
 
   .project__container {
@@ -844,7 +848,7 @@ img {
   }
 
   .about__description {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
   .about__button {
