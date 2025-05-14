@@ -465,7 +465,7 @@ img {
   background-color: var(--container-color);
 }
 
-.content__project {
+.project__card {
   background-color: var(--first-color);
 }
 

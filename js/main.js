@@ -143,10 +143,10 @@ const sr = ScrollReveal({
   reset: true,
 });
 
-sr.reveal(`.home__data, .all__skills, .contact__container`);
+sr.reveal(`.home__data, .skills, .contact__container`);
 sr.reveal(`.home__img`, { delay: 600 });
 sr.reveal(`.home__scroll`, { delay: 800 });
-sr.reveal(`.content__project`, { interval: 100 });
+sr.reveal(`.project__card`, { interval: 100 });
 sr.reveal(`.about__content, .experience__content`, {
   origin: "right",
 });
