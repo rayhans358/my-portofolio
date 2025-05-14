@@ -423,6 +423,7 @@ img {
 .experience__date {
   font-size: var(--normal-font-size);
   margin-bottom: 0.5rem;
+  font-style: italic;
 }
 
 .experience__description {
@@ -875,6 +876,7 @@ img {
   .experience__date {
     font-size: var(--normal-font-size);
     margin-bottom: 1.5rem;
+    font-style: italic;
   }
 
   .skills__content {
